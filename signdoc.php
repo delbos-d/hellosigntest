@@ -11,7 +11,20 @@ $url = $client->getEmbeddedSignUrl($id)->getSignUrl();
 
 
 <html>
-    <head></head>
+    <head>
+
+        <style>
+            html, body, .container {
+                height: 100%;
+            }
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 50px;
+            }
+        </style>
+    </head>
     <body>
     <script type="text/javascript" src="https://s3.amazonaws.com/cdn.hellosign.com/public/js/hellosign-embedded.LATEST.min.js"></script>
         <script type="text/javascript">
@@ -21,5 +34,6 @@ $url = $client->getEmbeddedSignUrl($id)->getSignUrl();
                 allowCancel: true
             });
         </script>
+        <p class="container">Merci pour votre signature!</p>
     </body>
 </html>
