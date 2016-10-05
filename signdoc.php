@@ -18,10 +18,7 @@ $url = $client->getEmbeddedSignUrl($id)->getSignUrl();
             HelloSign.init("8a04b8334c68d617cfdb89683cef86c2");
             HelloSign.open({
                 url: "<?php echo $url; ?>",
-                allowCancel: true,
-                messageListener: function(eventData) {
-                    alert("HelloSign event received");
-                }
+                allowCancel: true
             });
         </script>
     </body>

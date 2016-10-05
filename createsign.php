@@ -56,7 +56,7 @@ $sign_url = $response->getSignUrl();*/
     <head></head>
     <body>
     <?php for ($i = 0; $i < count($msgs_id); $i++) { ?>
-    <a href="/hellosigntest/signdoc.php?id=<?php echo $msgs_id[$i]; ?>">Lien pour le signataire <?php echo ($i + 1); ?></a>
+    <a href="/hellosigntest/signdoc.php?id=<?php echo $msgs_id[$i]; ?>" target="_blank">Lien pour le signataire <?php echo ($i + 1); ?></a>
     <?php } ?>
     </body>
 </html>
