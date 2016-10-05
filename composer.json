@@ -1,0 +1,6 @@
+{
+  "require": {
+    "hellosign/hellosign-php-sdk": "3.*@dev",
+    "symfony/var-dumper": "^3.1"
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0177e035-8de2-4180-8fb8-38e41c9cf702" name="Server Jarvis HelloSign" url="http://branches.jarvis-avocats.fr">
+        <fileTransfer host="branches.jarvis-avocats.fr" port="22" rootFolder="/srv/jarvisAvocats/branches/hellosigntest" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
